@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>My Simon Game</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+   <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
+<div id="game" class="container">
+  <button id="setting" class="btn btn-primary" data-toggle="modal" data-target="#setting-modal">Setting</button>
+
+  <div class='row'>
+    <div class="col-md-12 top-row ">
+      <a class="btn" id="red" href="#"></a>
+
+    </div>
+  </div>
+  <div class='row'>
+    <div class="col-12 middle-row ">
+      <a id="green" class="btn" href="#"></a>
+
+      <h5 id='status'></h5>
+      <a id="blue" class="btn" href="#"></a>
+
+    </div>
+  </div>
+  <div class='row'>
+    <div class='col-md-12 bottom-row'>
+      <a id="orange" class="btn" href="#"></a>
+
+    </div>
+
+  </div>
+  <div class='bottom-row'>
+    <button id="start" class="btn btn-primary">Start</button>
+  </div>
+  
+ <!-- Modal -->
+<div class="modal fade" id="setting-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Game Setting</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h4>Is strict mode?</h4>
+        <button type="button" id="mode" class="btn btn-primary">Strict Mode: OFF</button>
+        <button type="button" id="reset" class="btn btn-warning">Reset</button>
+      </div>
+      <div class="modal-footer">
+        
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

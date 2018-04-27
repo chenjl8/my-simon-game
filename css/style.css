@@ -1,0 +1,92 @@
+body {
+  background-color: #071013;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+#game {
+  /*border: 2px solid blue;*/
+  padding: 25px;
+  max-width:60%;
+  height:auto;
+  margin:0;
+}
+#red,
+#green,
+#blue,
+#orange {
+  width: 120px;
+  height: 120px;
+  margin: 30px;
+  margin-left: 80px;
+  margin-top: 50px;
+  
+  border-radius:20%;
+}
+
+#red {
+  border: 5px solid #F21B3F; 
+}
+#red.hover{
+  background-color:#F21B3F;
+  
+}
+
+#green{
+  border: 5px solid #29BF12;  
+}
+#green.hover{
+  background-color:#29BF12;
+}
+  
+#blue{
+  border: 5px solid #08BDBD;  
+}
+#blue.hover{
+  background-color:#08BDBD;  
+}
+#orange{
+  border: 5px solid #FF9914;  
+}
+#orange.hover{
+  background-color:#FF9914;  
+}
+#status {
+  max-width:100%;
+  height:auto;
+  margin: 80px auto;
+  margin-left:50px;
+  text-align:center;
+  font-size:2em;
+}
+
+.top-row,
+.bottom-row
+{
+  display: flex;
+  justify-content: center;
+}
+
+.middle-row {
+  display: flex;
+  justify-content:space-around;
+}
+
+#start{
+  margin-left:50px;
+  font-size:1.5em;
+  padding:5px 25px 5px 25px;
+  
+}
+#setting-modal{
+  color:#071013;
+  
+}
+
+#setting{
+  position:absolute;
+  left:50px;
+  z-index:1;
+  
+}
